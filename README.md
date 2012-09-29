@@ -1,4 +1,0 @@
-Mobile-Computing
-================
-
-Mobile Computing

@@ -1,0 +1,61 @@
+/**
+ * 
+ */
+package com.example.jokeoftheday;
+
+import android.content.Context;
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.os.Bundle;
+
+/**
+ * @author Sagar
+ *
+ */
+public class UpdateLocation extends MainActivity implements LocationListener {
+
+	/* (non-Javadoc)
+	 * @see android.location.LocationListener#onLocationChanged(android.location.Location)
+	 */
+	public void onLocationChanged(Location location) {
+		
+		Criteria criteria = new Criteria();
+    	criteria.setAccuracy(Criteria.ACCURACY_FINE);
+    	criteria.setAltitudeRequired(true);
+    	criteria.setBearingRequired(true);
+    	criteria.setCostAllowed(true);
+    	criteria.setPowerRequirement(Criteria.POWER_LOW);
+    	location_manager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+    	String location_provider = location_manager.getBestProvider(criteria, true);
+		location = location_manager.getLastKnownLocation(location_provider);
+	}
+
+	/* (non-Javadoc)
+	 * @see android.location.LocationListener#onStatusChanged(java.lang.String, int, android.os.Bundle)
+	 */
+	public void onStatusChanged(String provider, int status, Bundle extras) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see android.location.LocationListener#onProviderEnabled(java.lang.String)
+	 */
+	public void onProviderEnabled(String provider) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see android.location.LocationListener#onProviderDisabled(java.lang.String)
+	 */
+	public void onProviderDisabled(String provider) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+
+}
