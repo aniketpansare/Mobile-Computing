@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This dimensions are for font size -->
+<resources>
+    <dimen name="Size18">18dp</dimen>
+    <dimen name="Size15">15dp</dimen>
+    <dimen name="Size12">12dp</dimen>
+</resources>

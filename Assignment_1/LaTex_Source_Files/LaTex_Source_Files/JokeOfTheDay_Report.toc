@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {0.1}Purpose of the Assignment:}{2}{section.0.1}
+\contentsline {section}{\numberline {0.2}Software Requirement and Specifications}{2}{section.0.2}
+\contentsline {subsection}{\numberline {0.2.1}Major Constraints:}{2}{subsection.0.2.1}
+\contentsline {subsection}{\numberline {0.2.2}Hardware Resources used:}{2}{subsection.0.2.2}
+\contentsline {subsection}{\numberline {0.2.3}Software Resources used:}{2}{subsection.0.2.3}
+\contentsline {section}{\numberline {0.3}Technical Details:}{2}{section.0.3}
+\contentsline {section}{\numberline {0.4}Design and Implementation:}{3}{section.0.4}
+\contentsline {section}{\numberline {0.5}Limitations}{4}{section.0.5}
+\contentsline {section}{\numberline {0.6}Future work}{4}{section.0.6}
+\contentsline {section}{\numberline {0.7}Conclusion}{5}{section.0.7}
+\contentsline {section}{\numberline {0.8}Application Run}{5}{section.0.8}

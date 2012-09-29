@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">JokeOfTheDay</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Joke of the Day</string>
+    
+	<string name="altitude"><u><b>Altitude</b></u>: </string>
+	<string name="latitude"><u><b>Latitude</b></u>: </string>
+    <string name="longitude"><u><b>Longitude</b></u>: </string>
+    <string name="address"><u><b>Address</b></u>: </string>
+    <string name="now_unknown">Unknown for now</string>
+    <string name="str_get_joke">Get Joke of the day</string>
+    <string name="label_joke_of_day_is"><u><b>Joke of Day is </b></u></string>
+    <string name="str_hello_user"><i>Hello User, your current location is:</i></string>    
+
+</resources>

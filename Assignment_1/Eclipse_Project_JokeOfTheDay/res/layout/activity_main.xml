@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical" >
+   	
+    <!-- Layout for Hello User text-->
+    <LinearLayout
+        android:id="@+id/linearlayout_hello_user"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="15dp"
+    	android:layout_marginLeft="10dp"
+    	android:orientation="horizontal" >
+    	
+        <TextView
+	        android:id="@+id/label_hello_user"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/Size18"
+	        android:text="@string/str_hello_user" />
+        
+    </LinearLayout>
+    
+    <!-- Layout for Latitude -->
+    <LinearLayout
+        android:id="@+id/linearlayout_latitude"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="18dp"
+    	android:layout_marginLeft="10dp"
+    	android:orientation="horizontal" >
+    	
+	    <TextView
+	        android:id="@+id/label_latitude"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/Size18"
+	        android:text="@string/latitude" />
+	
+	    <TextView
+	        android:id="@+id/value_latitude"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/Size15"
+	        android:hint="@string/now_unknown" />
+	    
+	</LinearLayout>
+    
+    <!-- Layout for Longitude -->
+    <LinearLayout
+        android:id="@+id/linearlayout_longitude"
+        android:layout_marginLeft="10dp"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+	    
+	    <TextView
+	        android:id="@+id/label_longitude"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/Size18"
+	        android:text="@string/longitude" />
+	
+	    <TextView
+	        android:id="@+id/value_longitude"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/Size15"
+	        android:hint="@string/now_unknown" />
+        
+	</LinearLayout>
+	
+    <!-- Layout for Altitude -->
+    <LinearLayout
+        android:id="@+id/linearlayout_altitude"
+        android:layout_marginLeft="10dp"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+    	
+	    <TextView
+	        android:id="@+id/label_altitude"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/Size18"
+	        android:text="@string/altitude" />
+	
+	    <TextView
+	        android:id="@+id/value_altitude"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/Size15"
+	        android:hint="@string/now_unknown" />
+	    
+	</LinearLayout>
+	
+    <!-- Layout for Address -->
+    <LinearLayout
+        android:id="@+id/linearlayout_address"
+        android:layout_marginLeft="10dp"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+	    
+	    <TextView
+	        android:id="@+id/label_address"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/Size18"
+	        android:text="@string/address" />
+	
+	    <TextView
+	        android:id="@+id/value_address"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/Size15"
+	        android:hint="@string/now_unknown" />
+        
+	</LinearLayout>
+    
+    <!-- Layout for Button -->
+    <LinearLayout
+        android:id="@+id/linearlayout_button_joke"
+        android:layout_marginLeft="10dp"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+	    
+	    <Button
+	        android:id="@+id/button_get_joke"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/Size18"
+	        android:layout_marginLeft="63dp"
+	        android:layout_marginRight="63dp"
+	        android:layout_marginTop="30dp"
+	        android:layout_marginBottom="20dp"
+	        android:gravity="center_vertical|center_horizontal|end"
+	        android:text="@string/str_get_joke" />
+	    
+	</LinearLayout>
+ 
+    <!-- TextView for Joke -->
+    <TextView
+	    android:id="@+id/Text_joke"
+	    android:layout_width="match_parent"
+	    android:layout_height="100dp"
+	    android:layout_marginLeft="07dp"
+	    android:layout_marginRight="07dp"
+	    android:textSize="@dimen/Size12"
+	    android:maxLines="06"
+   		android:scrollbars="vertical" >
+	</TextView>
+    
+</LinearLayout>
